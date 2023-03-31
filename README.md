@@ -10,7 +10,7 @@
 4. [License](#license)
 5. [Criteria For Assignment](#criteria-for-assignment)
 6. [Repo Link](#repository-link)
-7. [Walkthrough Video](#walkthrough-video)
+7. [Deployed Application](#deployed-application)
 8. [Screen Shots](#screen-shots)
 
 ## Description
@@ -85,9 +85,9 @@ GIVEN a CMS-style blog site
 
 [Github](https://github.com/PintoDrop/techblog)
 
-## Walkthrough-Video
+## Deployed-Application
 
-[Walkthrough Video]()
+[Deployed Application]()
 
 ## Screen-Shots
 
