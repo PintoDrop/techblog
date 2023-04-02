@@ -4,11 +4,26 @@ const sequelize = require("./config/connection");
 const dotenv = require("dotenv");
 const session = require("express-session");
 const exphbs = require("express-handlebars");
-const SequelizeStore = require("connect-session-sequelize")(session.Store);
-const { join } = require('./models');
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
+const { join } = require('path');
 const passport = require('passport');
 const { User } = require('./models');
 const { Strategy: JWTStrategy, ExtractJwt } = require ('passport-jwt');
+
+const sess = {
+  secret: 'Super secret',
+  cookie: {
+    maxAge: 300000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'strict',
+  },
+  resave: false,
+  saveUninitialized: true,
+  store: new SequelizeStore({
+    db: sequelize
+  })
+};
 
 
 const app = express();
