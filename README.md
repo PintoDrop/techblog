@@ -15,6 +15,8 @@
 
 ## Description
 
+For this assignment I was tasked with creating a tech blog that a user can interact with. The user will be able to make a username and post about tech. The user will also be able to search for what other users have posted about in their blogs.
+
 ## Usage
 
 ## Installation
