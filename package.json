@@ -1,18 +1,31 @@
 {
+  "name": "techblog",
+  "version": "1.0.0",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PintoDrop/techblog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PintoDrop/techblog/issues"
+  },
+  "homepage": "https://github.com/PintoDrop/techblog#readme",
   "dependencies": {
-    "bcrypt": "^5.1.0",
-    "bootstrap": "^5.3.0-alpha2",
-    "connect-session-sequelize": "^7.1.5",
     "dotenv": "^16.0.3",
-    "express": "^4.17.3",
-    "express-handlebars": "^7.0.4",
-    "express-session": "^1.17.3",
-    "i": "^0.3.7",
-    "mysql2": "^3.2.0",
-    "npm": "^9.6.2",
-    "passport": "^0.6.0",
-    "passport-jwt": "^4.0.1",
-    "passport-local-sequelize": "^0.9.1",
-    "sequelize": "^6.30.0"
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.0.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
   }
 }
