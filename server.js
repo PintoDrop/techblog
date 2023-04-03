@@ -46,3 +46,8 @@ passport.serializeUser((user, done) => {
 sequelize.sync({ force: false}).then(() => {
   app.listen(PORT, () => console.log(`App listening on port ${PORT}`));
 });
+
+// app.listen(PORT, () => {
+//   console.log(`App listening on port ${PORT}!`);
+//   sequelize.sync({ force: false });
+// });
