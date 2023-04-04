@@ -95,12 +95,11 @@ GIVEN a CMS-style blog site
 
 ## Screen-Shots
 
-![Category js ids]()
-
-
-
+![Home Page Image](./images/homepage.JPG)
 
 <!-- 
 // use npm seed before running
 // add seed data and users prior to running seeds
-// create login page afterwards -->
+// create login page afterwards 
+ having log in go to login page
+ blog page  -->

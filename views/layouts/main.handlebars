@@ -21,14 +21,14 @@
         <a href="/newBlog">New Post</a> |
         <button class="no-button" id="logout">logout</button>
         {{else}}
-        {{!-- <a href="./login">login</a> --}}
         <div class="d-grid gap-2">
-          <button class="btn btn-primary" type="button" href="/login">Log In</button>
+          <a href="/login" id="login">Login</a>
+          {{!-- <button class="btn btn-primary" id="login"  type="submit" href="/login">Log In</button> --}}
         </div>
         {{/if}}
       </nav>
     </header>
-    <main class="text">
+    <main class="text align-center">
       {{{ body }}}
     </main>
     <footer class="mb-3">
@@ -43,3 +43,4 @@
 </body>
 
 </html>
+  <script src="/js/login.js"></script>
