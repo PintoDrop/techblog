@@ -21,7 +21,10 @@
         <a href="/newBlog">New Post</a> |
         <button class="no-button" id="logout">logout</button>
         {{else}}
-        <a href="./login">login</a>
+        {{!-- <a href="./login">login</a> --}}
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary" type="button" href="/login">Log In</button>
+        </div>
         {{/if}}
       </nav>
     </header>
@@ -29,7 +32,7 @@
       {{{ body }}}
     </main>
     <footer class="mb-3">
-      <p>Thanks for vistiing!</p>
+      <p>Thanks for visting!</p>
     </footer>
   </div>
 
