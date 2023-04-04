@@ -1,5 +1,4 @@
-
-  <title>Tech Blog</title>
+<title>Tech Blog</title>
 
 <h2>Log in</h2>
 <body>
@@ -11,11 +10,12 @@
   <br>
   <div class="mb-3">
     <label for="passLogin" class="form-label">Password</label>
-    <input type="text" class="form-control" id="password" placeholder="Enter password">
+    <input type="password" class="form-control" id="password" placeholder="Enter password">
   </div>
 
-  <div class="d-grid gap-2">
-    <button class="btn btn-primary" type="submit">Log In</button>
+
+  <div class="mb-3">
+    <a href="/login" id="signup" button class="btn btn-primary" type="submit">Log in</a>
   </div>
 
 <div class="col-md-6">
@@ -37,9 +37,9 @@
       <input class="form-control" type="password" id="newPassword" placeholder="Password must be 8 characters long" />
     </div>
     <br>
-
+    {{!-- <a href="/login" id="login">Sign Up</a> --}}
     <div class="mb-3">
-      <button class="btn btn-primary" type="submit">Signup</button>
+      <a href="/login" id="signup" button class="btn btn-primary" type="submit">Signup</a>
     </div>
   </form>
 </div>
@@ -49,5 +49,3 @@
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
     crossorigin="anonymous"></script>
 </body>
-
-{{!-- </html> --}}

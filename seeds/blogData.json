@@ -1,8 +1,13 @@
 [
   {
     "name": "Apple Watch Glitch?",
-    "description": "my apple watch won't let me buy oranges",
+    "description": "my apple watch won't let me buy oranges. Does apple have some kind of bias towards other fruit I may want to get?!",
     "user_id": 1
+  },
+   {
+    "name": "Does Chat GPT have feelings?",
+    "description": "I noticed that I never ask the popular AI how their day is going. Does this make me a bad person? It's so advanced I was worried it might have become sentient.",
+    "user_id": 2
   }
 ]
 
