@@ -99,7 +99,7 @@ GIVEN a CMS-style blog site
 
 
 
-
+<!-- 
 // use npm seed before running
 // add seed data and users prior to running seeds
-// create login page afterwards
+// create login page afterwards -->
