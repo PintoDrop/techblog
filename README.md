@@ -17,6 +17,8 @@
 
 For this assignment I was tasked with creating a tech blog that a user can interact with. The user will be able to make a username and post about tech. The user will also be able to search for what other users have posted about in their blogs. The user will have their own password that will allow them to view and post blogs. When the user is inactive for a period of time then the site will log them out. Once the user has posted their blog post then it will show up on the blog page allowing other users to read it.
 
+Unfortunately I was unable to get the application to work and will need to come back to it later due to time constraints.
+
 ## Usage
 
 This application will allow a user to create a log in name with their email and a password. Once they have created a login the user will be able to view and post blogs about tech. The user will be able to see other posts made by different users. The users login information will be saved to the page so if they close the page they will still be logged in once they return.
@@ -97,9 +99,4 @@ GIVEN a CMS-style blog site
 
 ![Home Page Image](./images/homepage.JPG)
 
-<!-- 
-// use npm seed before running
-// add seed data and users prior to running seeds
-// create login page afterwards 
- having log in go to login page
- blog page  -->
+![Login/Signup image](./images/login-signup.JPG)
