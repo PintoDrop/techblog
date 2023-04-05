@@ -93,7 +93,7 @@ GIVEN a CMS-style blog site
 
 ## Deployed-Application
 
-[Deployed Application]()
+[Deployed Application(pending until further code has been written)]()
 
 ## Screen-Shots
 
